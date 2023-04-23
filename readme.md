@@ -20,12 +20,7 @@ Le but de ce projet est de réaliser une version du jeu "Pierre-Feuille-Ciseaux"
 ---
 # Rubrique HowTo
 
-### Récupération des sources du projet
-Depuis votre terminal, veuillez exécuter la commande suivante :
-- `git clone git@gitlab-etu.fil.univ-lille.fr:patricia.totoummandoum.etu/javascript_patricia_totoum.git`
-
-
-**Ensuite, Veuillez exécuter les commandes suivantes dans un terminal à partir du dossier racine du projet1 :**
+**Veuillez exécuter les commandes suivantes dans un terminal à partir du dossier racine du projet1 :**
 
 ### Installation des modules
 - `npm install`
