@@ -1,0 +1,172 @@
+body {
+    background-color: #d4d3d8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #010316;
+}
+  
+h2 {
+    font-size: 2em;
+    color: #010316;
+}
+
+p {
+    font-size: 1.2em;
+    color: #1d1717;
+}
+  
+ul {
+    text-align: left;
+    margin: 1em auto;
+    max-width: 600px;
+}
+  
+li {
+    margin: 0.5em 0;
+}
+
+a {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    background-color: #9a9cb9;
+    border-radius: 0.5em;
+    color: #1d1717;
+    text-decoration: none;
+    box-shadow: 2px 2px #010741;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+  
+a:hover {
+    background-color: #393985;
+    color: #bfbfca;
+    transform: scale(1.1);
+}
+
+.error-container {
+	background-color: rgb(238, 231, 230);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ccc;
+	margin: 50px auto;
+	max-width: 600px;
+	padding: 20px;
+	text-align: center;
+}
+
+.images {
+    display: flex;
+    margin: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nom {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    text-align: center;
+    margin: 20px;
+}
+
+figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    color: #090d3f;
+    margin-top: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #999999;
+}
+
+#consigne {
+    width: 675px;
+    height: 100px;
+    margin-top: 250px;
+    padding: 20px;
+    position: absolute;
+    background-color: #c5d0e6;
+    border: 1px solid #999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    z-index: 1;
+}
+
+.rejouer {
+    display: flex;
+    margin: 0px 0;
+    text-align: center;
+    position: absolute;
+    top: calc(60% + 60px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+#rejouer {
+    width: 80px;
+    height: 40px;
+}
+
+#rejouer:hover {
+    background-color: #45458f;
+    color: #bfbfca;
+    transform: scale(1.1);
+}
+
+#game-section {
+	display: flex;
+    top: 50%;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	height: calc(100vh - 100px); /* modification de la hauteur */
+	margin-left: 0;
+}
+
+#round {
+    background-color: #a08ea0;
+    color: #010316;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+.player {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #010316;
+	border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.player .name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.player .score {
+	font-size: 3em;
+	font-weight: bold;
+}

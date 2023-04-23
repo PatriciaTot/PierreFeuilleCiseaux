@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Pierre-Feuille-Ciseaux</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+
+  </head>
+
+  <body>
+    <h1>Pierre Feuille Ciseaux</h1>
+
+    <div class="images">
+      <button class="bouton" id="pierre" value="pierre">
+        <img src="./images/pierre.png" alt="pierre">
+        <figcaption>Pierre</figcaption>
+      </button>
+
+      <button class="bouton" id="feuille" value="feuille">
+        <img src="./images/feuille.png" alt="feuille">
+        <figcaption>Feuille</figcaption>
+      </button>
+
+      <button class="bouton" id="ciseaux" value="ciseaux">
+        <img src="./images/ciseaux.png" alt="ciseaux">
+        <figcaption>Ciseaux</figcaption>
+      </button>
+    </div>
+
+    <section id="consigne">
+      <p id="commentaires"></p>
+    </section>
+
+    <div class="rejouer">
+      <button id="rejouer"> Rejouer </button>
+    </div>
+
+    <section id="game-section">
+      <div id="round">Manche 1</div>
+      <div id="player1" class="player">
+        <div class="name">Vous</div>
+        <div class="score" id="moi">0</div>
+      </div>
+      <div id="player2" class="player">
+        <div class="name">Joueur 2</div>
+        <div class="score" id="autreJoueur">0</div>
+      </div>
+    </section>
+
+  </body>
+
+</html>
